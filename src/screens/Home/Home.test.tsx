@@ -6,9 +6,9 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ThemeProvider } from '@/theme';
 import i18n from '@/translations';
 
-import Example from './Example';
+import Home from './Home';
 
-describe('Example screen should render correctly', () => {
+describe('Home screen should render correctly', () => {
 	let storage: MMKV;
 	const queryClient = new QueryClient({
 		defaultOptions: {
@@ -31,7 +31,7 @@ describe('Example screen should render correctly', () => {
 			<ThemeProvider storage={storage}>
 				<I18nextProvider i18n={i18n}>
 					<QueryClientProvider client={queryClient}>
-						<Example />
+						<Home />
 					</QueryClientProvider>
 				</I18nextProvider>
 			</ThemeProvider>
@@ -53,7 +53,7 @@ describe('Example screen should render correctly', () => {
 			<ThemeProvider storage={storage}>
 				<I18nextProvider i18n={i18n}>
 					<QueryClientProvider client={queryClient}>
-						<Example />
+						<Home />
 					</QueryClientProvider>
 				</I18nextProvider>
 			</ThemeProvider>

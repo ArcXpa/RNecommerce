@@ -1,0 +1,30 @@
+[
+  {
+    "id": "3ac68afc-c605-48d3-a4f8-fbd91aa97f63",
+    "title": "Cabbage",
+    "salePrice": 100,
+    "price": 120,
+    "thumb": "https://images.pexels.com/photos/5847622/pexels-photo-5847622.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": "bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
+    "title": "Cherries",
+    "salePrice": 100,
+    "price": 120,
+    "thumb": "https://images.pexels.com/photos/3688/food-dinner-lunch-chicken.jpg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": "58694a0f-3da1-471f-bd96-145571e29d72",
+    "title": "Chicken",
+    "salePrice": 100,
+    "price": 120,
+    "thumb": "https://images.pexels.com/photos/5847622/pexels-photo-5847622.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": "58694a0f-3da1-471f-bd96-144471e29d72",
+    "title": "Kiwi",
+    "salePrice": 120,
+    "price": 150,
+    "thumb": "https://images.pexels.com/photos/3688/food-dinner-lunch-chicken.jpg?auto=compress&cs=tinysrgb&w=800"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
+    "title": "Rice",
+    "thumb": "https://images.pexels.com/photos/723198/pexels-photo-723198.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": "3ac68afc-c605-48d3-a4f8-fbd91aa97f63",
+    "title": "Tea",
+    "thumb": "https://images.pexels.com/photos/1638280/pexels-photo-1638280.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": "58694a0f-3da1-471f-bd96-145571e29d72",
+    "title": "Drink",
+    "thumb": "https://images.pexels.com/photos/109275/pexels-photo-109275.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": "58694a0f-3da1-471f-bd96-144471e29d72",
+    "title": "Others",
+    "thumb": "https://images.pexels.com/photos/10201880/pexels-photo-10201880.jpeg?auto=compress&cs=tinysrgb&w=800"
+  }
+]

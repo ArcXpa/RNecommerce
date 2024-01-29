@@ -1,6 +1,7 @@
 {
   "extends": "@tsconfig/react-native/tsconfig.json",
   "compilerOptions": {
+    "jsx": "react",
     "types": ["jest", "node"],
     "paths": {
       "@/*": ["./src/*"],
@@ -10,6 +11,7 @@
     "./src/**/*",
     "./src/@types/**/*",
     "index.d.ts",
+    "declarations.d.ts",
     ".eslintrc.js",
     "jest.setup.js",
     "jest.config.js",

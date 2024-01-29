@@ -1,0 +1,30 @@
+[
+  {
+    "id": "3ac68afc-c605-48d3-a4f8-fbd91aa97f63",
+    "title": "Vietnamese Turkey",
+    "salePrice": 100,
+    "price": 120,
+    "thumb": "https://pngimg.com/d/beef_PNG91.png"
+  },
+  {
+    "id": "bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
+    "title": "Siamese Hybrid Chicken",
+    "salePrice": 100,
+    "price": 120,
+    "thumb": "https://img.freepik.com/free-photo/raw-chicken-meat_1203-6759.jpg?size=626&ext=jpg&ga=GA1.1.1412446893.1705017600&semt=ais"
+  },
+  {
+    "id": "58694a0f-3da1-471f-bd96-145571e29d72",
+    "title": "Siamese Turkey",
+    "salePrice": 100,
+    "price": 120,
+    "thumb": "https://png.pngtree.com/png-clipart/20231018/original/pngtree-uncooked-turkey-on-platter-plate-photo-png-image_13349280.png"
+  },
+  {
+    "id": "58694a0f-3da1-471f-bd96-144471e29d72",
+    "title": "Siamese Hybrid Meat",
+    "salePrice": 120,
+    "price": 150,
+    "thumb": "https://pngimg.com/d/beef_PNG91.png"
+  }
+]
