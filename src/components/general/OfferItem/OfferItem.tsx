@@ -7,6 +7,8 @@ import { ImageVariant } from '@/components/atoms';
 import { useTheme } from '@/theme';
 import { isImageSourcePropType } from '@/types/guards/image';
 import SVGoffericon from '@/assets/svg/offericon.svg';
+import React from 'react';
+
 type Props = {
 	height?: DimensionValue;
 	width?: DimensionValue;
@@ -31,17 +33,19 @@ function OfferItem({ height, width, mode }: Props) {
 	}
 
 	return (
-		<View style={[layout.row, layout.itemsCenter,   ]}>	 
-		<SVGoffericon />
-	   <View style={[layout.flex_1, gutters.paddingLeft_18, gutters.paddingRight_20]}>
-		   <View style={[layout.row, layout.left0, layout.itemsCenter]}>
-		   <Text style={[ fonts.titleSemiBold, gutters.paddingRight_12]}>60% OFF up to Rs120</Text>
-			
-		   </View>
-		   <Text style={[fonts.titleRegular]}>Use code ZCRICKET</Text>
-	   </View>
-  
-	   </View>
+		<View style={[layout.row, layout.itemsCenter]}>
+			<SVGoffericon />
+			<View
+				style={[layout.flex_1, gutters.paddingLeft_18, gutters.paddingRight_20]}
+			>
+				<View style={[layout.row, layout.left0, layout.itemsCenter]}>
+					<Text style={[fonts.titleSemiBold, gutters.paddingRight_12]}>
+						60% OFF up to Rs120
+					</Text>
+				</View>
+				<Text style={[fonts.titleRegular]}>Use code ZCRICKET</Text>
+			</View>
+		</View>
 	);
 }
 

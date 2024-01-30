@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "749768110579",
+    "project_id": "rnecommerce-4bbe0",
+    "storage_bucket": "rnecommerce-4bbe0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749768110579:android:0e8f4eb5e41f1e04abe286",
+        "android_client_info": {
+          "package_name": "com.rnecommerce"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALPjlmI_u-VlqyGT8-wNaVE0USaGbisBQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

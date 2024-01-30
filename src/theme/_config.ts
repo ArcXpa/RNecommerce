@@ -23,7 +23,9 @@ const colorsDark = {
 	purple50: '#1B1A23',
 } as const;
 
-const sizes = [2, 4, 6, 8, 10, 12, 14, 16, 18, 19, 20, 22, 24, 26, 28, 30, 32, 40, 80] as const;
+const sizes = [
+	2, 4, 6, 8, 10, 12, 14, 16, 18, 19, 20, 22, 24, 26, 28, 30, 32, 40, 80,
+] as const;
 
 export const config = {
 	fonts: {

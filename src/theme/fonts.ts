@@ -73,7 +73,7 @@ export const staticFontStyles = {
 		fontFamily: 'Lexend-Regular',
 		fontSize: 12,
 		fontWeight: '500',
-		textDecorationLine: 'line-through', 
+		textDecorationLine: 'line-through',
 		textDecorationStyle: 'solid',
 		color: 'rgba(184, 184, 184, 1)',
 	},

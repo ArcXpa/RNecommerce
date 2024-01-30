@@ -3,6 +3,7 @@ import { SafeAreaView, StatusBar } from 'react-native';
 import { useTheme } from '@/theme';
 
 import type { PropsWithChildren } from 'react';
+import React from 'react';
 
 function SafeScreen({ children }: PropsWithChildren) {
 	const { layout, variant, navigationTheme } = useTheme();
