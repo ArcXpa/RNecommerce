@@ -13,7 +13,6 @@ const queryClient = new QueryClient();
 export const storage = new MMKV();
 
 function App() {
-
 	return (
 		<Provider store={store}>
 			<QueryClientProvider client={queryClient}>

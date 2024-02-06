@@ -37,6 +37,8 @@ import SVGunchecked from '@/assets/svg/unchecked.svg';
 import RECCDATA from '@/assets/data/recommended.json';
 import { useSelector } from 'react-redux';
 import { selectCart } from '@/reducers/cartSlice';
+import { Item } from '@/types/cartTypes';
+import { ApplicationScreenProps } from '@/types/navigation';
 import styles from './style';
 
 function Cart({ navigation }: ApplicationScreenProps) {
@@ -79,8 +81,20 @@ function Cart({ navigation }: ApplicationScreenProps) {
 
 	const handleItemClick = (id: string) => {
 		// Handle the item click in the parent component
-		console.log('Item clicked');
+
 		setSelected(id);
+	};
+
+	const getCartTotal = (): number => {
+		if (cart.length === 0) return 0;
+
+		let ttl = 0;
+
+		cart.forEach((itm: Item) => {
+			ttl += itm.salePrice * itm.qty;
+		});
+
+		return ttl;
 	};
 
 	if (
@@ -160,7 +174,6 @@ function Cart({ navigation }: ApplicationScreenProps) {
 											: 0
 									}
 									onItemClick={() => {
-										console.log(item.id);
 										handleItemClick(item.id);
 									}}
 								/>
@@ -182,7 +195,11 @@ function Cart({ navigation }: ApplicationScreenProps) {
 											showsHorizontalScrollIndicator={false}
 											data={RECCDATA}
 											renderItem={({ item }) => (
-												<RecItem title={item.title} price={item.salePrice} thumb={item.thumb} />
+												<RecItem
+													title={item.title}
+													price={item.salePrice}
+													thumb={item.thumb}
+												/>
 											)}
 											keyExtractor={item => item.id}
 										/>
@@ -550,7 +567,7 @@ function Cart({ navigation }: ApplicationScreenProps) {
 											Order total
 										</Text>
 										<Text style={[gutters.marginLeft_8, styles.lbl_sub]}>
-											₹ 580
+											₹ {getCartTotal()}
 										</Text>
 									</View>
 
@@ -583,7 +600,7 @@ function Cart({ navigation }: ApplicationScreenProps) {
 											Total cost
 										</Text>
 										<Text style={[gutters.marginLeft_8, styles.lbl_totalprice]}>
-											₹ 600
+											₹ {getCartTotal() + 20}
 										</Text>
 									</View>
 

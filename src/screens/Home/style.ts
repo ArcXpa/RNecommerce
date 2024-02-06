@@ -65,7 +65,7 @@ const styles = StyleSheet.create({
 		backgroundColor: 'white',
 		borderRadius: 20,
 		position: 'relative',
- 
+
 		minHeight: 320,
 		padding: 35,
 		width: '90%',
@@ -101,14 +101,14 @@ const styles = StyleSheet.create({
 	modalText: {
 		marginBottom: 15,
 		textAlign: 'center',
-		fontFamily:'Lexend-Regular',
+		fontFamily: 'Lexend-Regular',
 		fontWeight: '500',
 		fontSize: 18,
 	},
 	errText: {
 		marginBottom: 12,
 		textAlign: 'center',
-		fontFamily:'Lexend-Regular',
+		fontFamily: 'Lexend-Regular',
 		fontWeight: '500',
 		color: 'red',
 		fontSize: 10,
@@ -119,14 +119,14 @@ const styles = StyleSheet.create({
 	regText: {
 		marginBottom: 15,
 		textAlign: 'right',
-		fontFamily:'Lexend-Regular',
+		fontFamily: 'Lexend-Regular',
 		fontWeight: '500',
 		fontSize: 14,
 	},
 	regbtn: {
-		marginTop: 20, 
-		alignItems:'flex-end',
-		alignSelf:'flex-end',
+		marginTop: 20,
+		alignItems: 'flex-end',
+		alignSelf: 'flex-end',
 	},
 	input: {
 		backgroundColor: 'rgba(245, 245, 245, 1)',

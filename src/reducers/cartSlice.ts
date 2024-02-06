@@ -1,9 +1,9 @@
 // src/redux/tasksSlice.ts
 import { createSlice, PayloadAction, Action } from '@reduxjs/toolkit';
 import { ThunkAction } from 'redux-thunk';
-import { RootState } from '@/store/rootReducer';
 
 import { Item } from '@/types/cartTypes';
+import { RootState } from '@/store/rootReducer';
 
 interface CartState {
 	items: Item[];
